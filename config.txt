@@ -1,0 +1,2 @@
+provider: TIM05
+connection:Data Source=C:/Users/vujan/OneDrive/Desktop/Fakultet/Treca godina/Dizajniranje Softvera/tim-05/database.db;
