@@ -12,11 +12,15 @@ Ovaj projekat predstavlja .NET biblioteku i grafičku aplikaciju dizajniranu za 
 ## Konfiguracija:
 Čitanje podataka iz config.txt fajla za konfiguraciju provajdera
 Omogućava više provajdera da koriste istu aplikaciju sa različitim bazama i imenima
+## Package install
+- **Open (View -> Other Windows -> Package Manager Console)**
+- **Execute in terminal : Install-Package Microsoft.Data.Sqlite -ProjectName ProjectName ('UI' and 'Library')**
+- **Execute in terminal : Install-Package System.Data.Sqlite -ProjectName ProjectName ('UI' and 'Library')**
 
 ## Podrška za Različite Tipove Baza:
 Biblioteka podržava konekciju sa bar 2 različita tipa baze (npr. SQLite i MySQL)
 
-##Korišćeni Softverski Paterni:
+## Korišćeni Softverski Paterni:
 - **Singleton: Za obezbeđivanje jedinstvene instance baze.**
 - **Builder: Za kreiranje kompleksnih objekata paketa.**
 - **Factory Method: Za instanciranje odgovarajućih tipova baza podataka.**
